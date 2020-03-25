@@ -4,8 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Коронавирус (COVID-19) || Количество в РОССИИ</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
-    <iframe src="https://multimedia.scmp.com/widgets/china/wuhanvirus/#" frameborder="0"></iframe>
+    <style>
+        body{
+            font-family: 'Roboto', sans-serif;
+        }
+        .toRussia{
+    width: 100%;
+    background: url(123.jpg);
+    height: 450px;
+}
+    </style>
+    <div class="toRussia">
+        <div class="title">В РОССИИ на <span id="ThisDate"></span></div>
+        <div class="cases">
+            <span class="title">Cлучаи</span>
+            <span class="count countCases">
+                1
+            </span>
+        </div>
+        <div class="deaths">
+            <span class="title">Смертей</span>
+            <span class="count countDeaths">
+                1
+            </span>
+        </div>
+        <div class="recovered">
+            <span class="title">Выздоровел</span>
+            <span class="count countRecovered">
+                1
+            </span>
+        </div>
+    </div>
+<script src="main.js"></script>
+
 </body>
 </html>
